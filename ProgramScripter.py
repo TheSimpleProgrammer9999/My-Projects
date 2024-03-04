@@ -54,7 +54,7 @@ while True:
             List3.append(stuffstoreinitem3)
 
     elif inputter=="credits(True)":
-        text("\t-----credits-----\nProgrammed by the GitHub user TheSimpleProgrammer9999\nThis is a simple programming language,\ncalled ProgramScripter.The programming language\nintroduces basic mechanics, such\nas simple arithmetic, and variables. But it does not support lists or syntax errors. It\nonly supports basic arithmetic, printing stuff on the screen,\nprinting variables. The owner who write this programming language is\nnot a Python developer. He doesn't know how to code a syntax\nor whatever that is complex. So it is a very simple programming language.\nIt also doesn't support files either. You write code in the terminal\nin this programming language.")
+        text("\t-----credits-----\nProgrammed by the GitHub user TheSimpleProgrammer9999\nThis is a simple programming language,\ncalled ProgramScripter.The programming language\nintroduces basic mechanics, such\nas simple arithmetic, variables, and lists. But it does not support syntax errors. It\nonly supports basic arithmetic, printing stuff on the screen,\nprinting variables, lists, and printing lists. The owner who write this programming language is\nnot a Python developer. He doesn't know how to code a syntax\nor whatever that is complex. So it is a very simple programming language.\nIt also doesn't support files either. You write code in the terminal\nin this programming language.")
 
     elif inputter=="<close>":
         text("Interpreter:: <closing>")
