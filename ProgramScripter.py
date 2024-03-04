@@ -1,5 +1,9 @@
 import time
 
+List1=[]
+List2=[]
+List3=[]
+
 
 def text(text_):
     print(text_)
@@ -33,6 +37,21 @@ while True:
         var_create4=inputv___
         __inputvalue=input("Store value in class <var> ")
         stuffstoreinvar4=__inputvalue
+
+    elif inputter=="GetList(:1)":
+            item1input=input("\tstore <value1> in List1 ")
+            stuffstoreinitem1=item1input
+            List1.append(stuffstoreinitem1)
+            
+    elif inputter=="GetList(:2)":
+            item2input=input("\tstore <value1> in List2 ")
+            stuffstoreinitem2=item2input
+            List2.append(stuffstoreinitem2)
+            
+    elif inputter=="GetList(:3)":
+            item3input=input("\tstore <value1> in List1 ")
+            stuffstoreinitem3=item3input
+            List3.append(stuffstoreinitem3)
 
     elif inputter=="credits(True)":
         text("\t-----credits-----\nProgrammed by the GitHub user TheSimpleProgrammer9999\nThis is a simple programming language,\ncalled ProgramScripter.The programming language\nintroduces basic mechanics, such\nas simple arithmetic, and variables. But it does not support lists or syntax errors. It\nonly supports basic arithmetic, printing stuff on the screen,\nprinting variables. The owner who write this programming language is\nnot a Python developer. He doesn't know how to code a syntax\nor whatever that is complex. So it is a very simple programming language.\nIt also doesn't support files either. You write code in the terminal\nin this programming language.")
@@ -90,6 +109,13 @@ while True:
             cal2=input("second integer: ")
             secondint=cal2
             print(int(firstint) % int(secondint))
+                                        
+        elif inputter=="calculate(**)":
+            cal=input("first integer: ")
+            firstint=cal
+            cal2=input("second integer: ")
+            secondint=cal2
+            print(int(firstint) ** int(secondint))
 
     except ZeroDivisionError:
        pass
