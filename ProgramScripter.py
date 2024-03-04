@@ -39,17 +39,17 @@ while True:
         stuffstoreinvar4=__inputvalue
 
     elif inputter=="GetList(:1)":
-            item1input=input("\tstore <value1> in List1 ")
+            item1input=input("\tstore <value> in List1 ")
             stuffstoreinitem1=item1input
             List1.append(stuffstoreinitem1)
             
     elif inputter=="GetList(:2)":
-            item2input=input("\tstore <value1> in List2 ")
+            item2input=input("\tstore <value> in List2 ")
             stuffstoreinitem2=item2input
             List2.append(stuffstoreinitem2)
             
     elif inputter=="GetList(:3)":
-            item3input=input("\tstore <value1> in List1 ")
+            item3input=input("\tstore <value> in List3 ")
             stuffstoreinitem3=item3input
             List3.append(stuffstoreinitem3)
 
@@ -71,6 +71,15 @@ while True:
             
         elif inputter==(f"write_var() {var_create4}"):
             print(stuffstoreinvar4)
+
+        elif inputer==("write_list() List1"):
+            print(List1)
+            
+        elif inputer==("write_list() List2"):
+            print(List2)
+                        
+        elif inputer==("write_list() List3"):
+            print(List3)
     except NameError:
         pass
 
