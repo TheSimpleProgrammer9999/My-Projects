@@ -53,6 +53,16 @@ while True:
             stuffstoreinitem3=item3input
             List3.append(stuffstoreinitem3)
 
+    
+    elif inputter==("write_list() List1"):
+            print(List1)
+            
+    elif inputter==("write_list() List2"):
+            print(List2)
+                        
+    elif inputter==("write_list() List3"):
+            print(List3)
+
     elif inputter=="credits(True)":
         text("\t-----credits-----\nProgrammed by the GitHub user TheSimpleProgrammer9999\nThis is a simple programming language,\ncalled ProgramScripter.The programming language\nintroduces basic mechanics, such\nas simple arithmetic, variables, and lists. But it does not support syntax errors. It\nonly supports basic arithmetic, printing stuff on the screen,\nprinting variables, lists, and printing lists. The owner who write this programming language is\nnot a Python developer. He doesn't know how to code a syntax\nor whatever that is complex. So it is a very simple programming language.\nIt also doesn't support files either. You write code in the terminal\nin this programming language.")
 
@@ -71,15 +81,6 @@ while True:
             
         elif inputter==(f"write_var() {var_create4}"):
             print(stuffstoreinvar4)
-
-        elif inputer==("write_list() List1"):
-            print(List1)
-            
-        elif inputer==("write_list() List2"):
-            print(List2)
-                        
-        elif inputer==("write_list() List3"):
-            print(List3)
     except NameError:
         pass
 
