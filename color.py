@@ -16,4 +16,5 @@ while True:
         listinput=input("-?- ")
         item=listinput
         List1.append(item)
+    elif input_=="black black-black-black black":
         print(List1)
