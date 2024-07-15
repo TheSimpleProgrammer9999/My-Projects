@@ -87,8 +87,6 @@ for i in range(10):
     mixer.music.load("bruh.mp3")
     mixer.music.play()
 
-os.startfile('fbi-open-up.mp4')
-
 while True:
     num=100
     while num > 0:
