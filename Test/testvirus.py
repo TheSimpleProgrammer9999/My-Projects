@@ -6,6 +6,7 @@ from emoji import*
 import os
 from tkinter import*
 from tkinter import messagebox
+import keyboard
 
 messagebox.showwarning("WARNING","WARNING: this virus will roast you 'till you go insane. Plus it's no joke")
 
@@ -49,8 +50,18 @@ class Child(Parent):
                 with open("ahHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhhhhhhh",'w') as f:
                         f.write("ahhhhhhhhhhhhh ahhhhh")
                 with open("ahHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhh",'w') as f:
-                    f.write("ahhhhhHHHHHHHhhhhhhhhh aHHHHHHHHHHHHHHHHHHH                   AHHHHHHHHHHHHHHHHHHHHH")
-                
+                    f.write("ahhhhhHHHHHHHhhhhhhhhh aHHHHHHHHHHHHHHHHHHH                   AHHHHHHHHHHHHHHHHHHHHH")         
+    # def bruh(self):
+    #     num_=0
+    #     num_=10
+    #     while num_  >= 0:
+    #         messagebox.showerror("","bruh")
+    #         mixer.music.load("bruh.mp3")
+    #         mixer.music.play()
+    #         sleep(0.1)
+    #         num_ -= 1  
+    #     print("done")
+
     mixer.init()
     mixer.music.load("meme_alarm.mp3")
     mixer.music.play()
@@ -70,15 +81,14 @@ print("close the window")
 image2.show()
 print("close the window")
 image3.show()
-with open("sigmamale",'a') as f:
-        f.write("ermmmmmmm what da sigma")
-num_=10
-while num_  >= 0:
-    messagebox.showerror("","bruh")
+
+for i in range(10):
+    msgbox("bruh",ok_button="...")
     mixer.music.load("bruh.mp3")
     mixer.music.play()
-    sleep(0.1)
-    num_ -= 1
+
+os.startfile('fbi-open-up.mp4')
+
 while True:
     num=100
     while num > 0:
