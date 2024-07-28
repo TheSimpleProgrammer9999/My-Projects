@@ -5,7 +5,7 @@ def formula(a, b):
     result = round(math.sqrt(a_b), 2)
     print(result)
 
-a = int(input("Opposite length: "))
-b = int(input("Adjacent length: "))
+a = int(input("a length: "))
+b = int(input("b length: "))
 
 formula(a, b)
