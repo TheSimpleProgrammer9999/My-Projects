@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Thanks to GeeksForGeeks for the idea! And thanks to GeeksForGeeks and StackOverflow!
+// Thanks to GeeksForGeeks for the idea! And thanks to GeeksForGeeks and StackOverflow for some of the code!
 
 int maximum = 10;
 int minimum = 1;
